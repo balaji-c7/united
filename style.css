@@ -1,0 +1,63 @@
+#heading1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 15, 15);
+    background-color: rgb(255, 255, 255);
+}
+
+P,div{
+
+    text-align: center;
+    color: rgb(30, 10, 10);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Space the boxes evenly */
+    margin-top: 20px;
+}
+
+.box4, .box5, .box6 ,.box7{
+    width: 20%;
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box img,.box1 img, .box2 img ,.box3 img,.box4 img,.box5 img, .box6 img ,.box7 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.box p,.box1 p,.box2 p,.box3 p.box4 p,.box5 p,.box6 p,.box7 p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;    
+}
+
+.container1{
+       
+    padding: 10px;
+    justify-content: space-between;
+    display:inline;
+}
+
+.container1::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+.box, .box1, .box2 {
+        width: 20%;
+        border: 2px solid #000;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        float: left; /* Aligns the boxes side by side from left to right */
+        margin-right: 69px;
+    }
